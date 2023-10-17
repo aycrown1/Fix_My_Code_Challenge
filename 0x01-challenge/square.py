@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 """ Module for calculating a square"""
+
+
 class square():
     """
     The Square class"""
     width = 0
     height = 0
 
-    
     def __init__(self, *args, **kwargs):
         """ Instantiation of class"""
         for key, value in kwargs.items():
@@ -23,6 +24,7 @@ class square():
     def __str__(self):
         """ docstring """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     """ class caller"""
